@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-poppins bg-gray-100 scroll-smooth">
+    <header
+      class="h-[45px] sm:h-[70px] bg-gray-50 shadow-sm fixed w-full z-[2] cursor-pointer p-2 flex items-center"
+    >
+      <div class="container mx-auto container-padding">
+        <nav class="mx-auto h-full flex justify-between items-center">
+          <div class="text-base leading-6 font-medium text-gray-800">
+            <h1>Sapondanai Sriwan</h1>
+          </div>
+          <div class="sm:hidden flex items-center">
+            <i class="bx bx-menu"></i>
+          </div>
+          <ul
+            class="list-none text-base leading-6 font-medium text-gray-800 hidden sm:flex sm:gap-4"
+          >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="h-screen flex items-center">
+        <div class="container mx-auto container-padding">
+          <div class="max-w-5xl mx-auto md:flex md:gap-4">
+            <div
+              class="max-w-[30%] object-fit rounded-3xl overflow-hidden mx-auto"
+            >
+              <img src="./asset/img/me.png" alt="profile" />
+            </div>
+            <div class="flex justify-center flex-col">
+              <h1
+                class="text-center p-1 text-xl sm:text-2xl lg:text-3xl xl:text-5xl leading-7 sm:leading-8 lg:leading-9 xl:leading-none font-semibold text-gray-800 md:text-left"
+              >
+                Ayo, I'm Sapondanai Sriwan. 👋
+              </h1>
+              <p
+                class="text-center text-gray-5 text-base lg:text-lg leading-6 lg:leading-7 font-medium p-1 text-gray-600 md:text-left"
+              >
+                I'm just an average high school student who enjoy programming
+                and creating projects that I find interesting.
+              </p>
+              <div class="flex gap-2.5 justify-center p-1">
+                <a
+                  href="https://github.com/sapondanaisriwan"
+                  target="_blank"
+                  class=""
+                >
+                  <img
+                    src="./asset/svg/github-logo.svg"
+                    alt="github"
+                    class="w-6"
+                  />
+                </a>
+                <a href="mailto:sapondanaisriwan@gmail.com">
+                  <img src="./asset/svg/mail.svg" alt="gmail" />
+                </a>
+                <a href="https://twitter.com/Adashimaa" target="_blank">
+                  <img
+                    src="./asset/svg/Twitter.svg"
+                    alt="twitter"
+                    class="w-6"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-me" class="h-screen flex items-center bg-gray-50">
+        <div class="container mx-auto container-padding">
+          <div class="md:flex md:items-center max-w-5xl mx-auto gap-4">
+            <div class="md:max-w-[60%]">
+              <h1 class="md:text-left header-one">About me</h1>
+              <p class="md:text-left who-am-i">
+                Hello! I'm Sapondanai Sriwan, a high school student from Chiang
+                Rai, Thailand, and I've always been 17 years old. I enjoy
+                creating projects that I find interesting. I have an arsenal of
+                skills such as HTML, CSS, JavaScript, Tailwind, Stylus, SCSS,
+                Python, NodeJS, and Lua.
+              </p>
+              <div
+                class="flex flex-wrap gap-2 justify-center md:justify-start mb-5"
+              >
+                <img
+                  src="./asset/svg/html-logo.svg"
+                  alt="html"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/css-logo.svg"
+                  alt="css"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/js-logo.svg"
+                  alt="js"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/tailwind-logo.svg"
+                  alt="tailwind"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/stylus.svg"
+                  alt="stylus"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/scss-logo.svg"
+                  alt="scss"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/python.svg"
+                  alt="python"
+                  class="w-6 sm:w-8"
+                />
+                <img
+                  src="./asset/svg/nodejs-logo.svg"
+                  alt="nodejs"
+                  class="w-6 sm:w-8"
+                />
+                <img src="./asset/svg/lua.svg" alt="lua" class="w-6 sm:w-8" />
+              </div>
+            </div>
+            <div
+              class="object-fit h-full max-w-[50%] md:max-w-[40%] mx-auto rounded-xl overflow-hidden"
+            >
+              <img src="./asset/img/about-me.jpg" alt="table" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="h-screen flex items-center">
+        <div class="container mx-auto container-padding">
+          <h1 class="header-one">Education</h1>
+          <div class="relative max-w-[340px] mx-auto">
+            <div class="absolute h-full">
+              <div class="bg-gray-300 w-0.5 h-full relative left-3"></div>
+              <div
+                class="bg-gray-300 rounded-lg w-6 h-6 flex justify-center items-center absolute top-0 left-0"
+              >
+                <i class="bx bx-book-reader"></i>
+              </div>
+            </div>
+            <div class="flex items-center relative left-[7px]">
+              <div
+                class="bg-gray-50 rounded-xl w-3 h-3 flex justify-center items-center"
+              >
+                <div class="bg-gray-600 rounded-xl w-1.5 h-1.5"></div>
+              </div>
+              <div class="pl-10 pt-10">
+                <h1 class="text-base leading-6 font-semibold text-gray-600">
+                  Chiang Rai Municipality School 7
+                </h1>
+                <p class="text-sm leading-5 font-medium text-gray-500">
+                  2010 - 2016
+                </p>
+                <p class="text-sm leading-5 font-normal text-gray-400">
+                  Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center relative left-[7px]">
+              <div
+                class="bg-gray-50 rounded-xl w-3 h-3 flex justify-center items-center"
+              >
+                <div class="bg-gray-600 rounded-xl w-1.5 h-1.5"></div>
+              </div>
+              <div class="pl-10 pt-10">
+                <h1 class="text-base leading-6 font-semibold text-gray-600">
+                  Samakkhi Witthayakhom School
+                </h1>
+                <p class="text-sm leading-5 font-medium text-gray-500">
+                  2021-2023
+                </p>
+                <p class="text-sm leading-5 font-normal text-gray-400">
+                  Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center relative left-[7px]">
+              <div
+                class="bg-gray-50 rounded-xl w-3 h-3 flex justify-center items-center"
+              >
+                <div class="bg-gray-600 rounded-xl w-1.5 h-1.5"></div>
+              </div>
+              <div class="pl-10 pt-10">
+                <h1 class="text-base leading-6 font-semibold text-gray-600">
+                  Samakkhi Witthayakhom School
+                </h1>
+                <p class="text-sm leading-5 font-medium text-gray-500">
+                  2021-2023
+                </p>
+                <p class="text-sm leading-5 font-normal text-gray-400">
+                  Corem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+            <div class="absolute h-full">
+              <div
+                class="bg-gray-300 rounded-lg w-6 h-6 flex justify-center items-center absolute top-0 left-0"
+              >
+                <i class="bx bxs-skull"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="flex items-center bg-gray-50">
+        <div class="container mx-auto container-padding py-25">
+          <h1 class="header-one">Portfolio</h1>
+          <div class="card-odd">
+            <div class="object-fit overflow-hidden rounded-lg flex-1 h-full">
+              <img src="./asset/img/adashimaatube.jpg" alt="AdashimaaTube" />
+            </div>
+            <div class="lg:max-w-[400px] flex flex-col justify-between mx-auto">
+              <div class="py-4">
+                <h1
+                  class="text-lg sm:text-xl leading-7 font-semibold text-center text-gray-600"
+                >
+                  AdashimaaTube
+                </h1>
+                <p
+                  class="card-d text-center text-gray-500 text-base lg:text-lg leading-6 lg:leading-7 font-normal p-1 md:text-left"
+                >
+                  AdashimaaTube is an userstyle that restore old Youtube layout
+                  in 2021-2022 with many customizable options.
+                </p>
+                <img
+                  src="./asset/svg/stylus.svg"
+                  alt="stylus"
+                  class="w-8 sm:w-16 mx-auto"
+                />
+              </div>
+              <div class="mx-auto">
+                <a href="https://github.com/sapondanaisriwan/AdashimaaTube" target="_blank">
+                  <img
+                    src="./asset/svg/github-logo.svg"
+                    alt="github"
+                    class="w-8 h-8"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-even">
+            <div
+              class="object-fit overflow-hidden rounded-lg flex-1 max-h-[300px]"
+            >
+              <img src="./asset/img/botnoi.png" alt="botnoi" />
+            </div>
+            <div class="lg:max-w-[400px] flex flex-col justify-between mx-auto">
+              <div class="py-4">
+                <h1
+                  class="text-lg sm:text-xl leading-7 font-semibold text-center text-gray-600"
+                >
+                  Nong-Muuay Gaming
+                </h1>
+                <p
+                  class="card-d text-center text-gray-500 text-base lg:text-lg leading-6 lg:leading-7 font-normal p-1 md:text-left"
+                >
+                  Nong Muuay Gaming is a line bot that uses Botnoi. Its goal is
+                  to increase sales for the gaming shop and has capabilities
+                  including greeting, showing orders, adding orders, checking
+                  baskets and etc.
+                </p>
+                <img
+                  src="./asset/svg/js-logo.svg"
+                  alt="stylus"
+                  class="w-8 sm:w-16 mx-auto"
+                />
+              </div>
+              <div class="mx-auto">
+                <a href="https://github.com/sapondanaisriwan/AdashimaaTube">
+                  <img
+                    src="./asset/svg/github-logo.svg"
+                    alt="github"
+                    class="w-8 h-8"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-odd">
+            <div class="object-fit overflow-hidden rounded-lg flex-1 h-full">
+              <img src="./asset/img/world-zero.png" alt="world-zero" />
+            </div>
+            <div class="lg:max-w-[400px] flex flex-col justify-between">
+              <div class="py-4">
+                <h1
+                  class="text-lg sm:text-xl leading-7 font-semibold text-center text-gray-600"
+                >
+                  World Zero Script
+                </h1>
+                <p
+                  class="card-d text-center text-gray-500 text-base lg:text-lg leading-6 lg:leading-7 font-normal p-1 md:text-left"
+                >
+                  World Zero script is a Roblox hack have many features such as
+                  Kill aura, Skip Cut sense, Fast Sprint, Fast Upgrade, Coin
+                  Magnet and more.
+                </p>
+                <img
+                  src="./asset/svg/lua.svg"
+                  alt="lua"
+                  class="w-8 sm:w-16 mx-auto"
+                />
+              </div>
+              <div class="mx-auto">
+                <a href="https://github.com/sapondanaisriwan/AdashimaaTube" target="_blank">
+                  <img
+                    src="./asset/svg/github-logo.svg"
+                    alt="github"
+                    class="w-8 h-8"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
